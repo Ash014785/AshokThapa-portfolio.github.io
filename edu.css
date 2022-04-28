@@ -1,0 +1,19 @@
+.edu {
+  background-color: antiquewhite;
+  width: 100%;
+}
+.edu>ul {
+  list-style: none;
+}
+.main {
+  display: flex;
+}
+.co{
+  flex: 50%;
+}
+.frames {
+  flex: 50%;
+}
+.frames1 {
+  height: 50%;
+}

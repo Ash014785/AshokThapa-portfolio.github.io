@@ -1,0 +1,86 @@
+.whole {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-auto-rows: 250px;
+  column-gap: 1%;
+  row-gap: 1%;
+}
+.fourg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.colu {
+  border: 2px solid darkblue;
+}
+.colu1 {
+  background-color: aquamarine;
+  border: 1px solid red;
+  margin: 2px;
+}
+p {  
+  color:#313131;
+  -webkit-animation:colorchange 5s infinite alternate; 
+}
+@-webkit-keyframes colorchange {
+  0% {   
+    color: blue;
+  }
+  10% { 
+    color: #8e44ad;
+  } 
+  20% {   
+    color: #1abc9c;
+  }
+  30% { 
+    color: #d35400;
+  }
+  40% { 
+    color: blue;
+  }
+  50% {  
+    color: #34495e;
+  }
+  60% { 
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    
+    color: pink;
+  }
+}
+.whole {
+  width:100%;
+  height:100%;
+  color:black;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: rgb(0, 255, 255);}
+  25%{background-color:rgb(255, 136, 0);}
+  50%{background-color:rgb(236, 8, 8);}
+  75%{background-color:brown;}
+  100% {background-color: rgb(255, 0, 212);}
+}
+.colu:hover  {
+animation: myanimation 1s infinite;
+}
+
+@keyframes myanimation {
+0% {background-color: rgb(17, 243, 9);}
+25%{background-color:yellow;}
+50%{background-color:green;}
+75%{background-color:rgb(240, 0, 208);}
+100% {background-color: rgb(46, 0, 253);}
+}

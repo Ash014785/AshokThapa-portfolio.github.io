@@ -1,0 +1,37 @@
+.holder {
+  width: 33%;
+  height: 250px;
+  margin-top: 10px;
+}
+.holder>img {
+  height: 100%;
+  width: 100%;
+}
+.mini {
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background-color: rgb(96, 230, 223);
+}
+.b {
+  margin-left: 33%;
+}
+.c{
+  margin-left: 66%;
+}
+h1 {
+  text-align: center;
+}
+.g {
+  margin-left: 66%;
+  border: 2px solid rgb(0, 0, 0);
+}
+.cssg {
+  font-size: 5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}

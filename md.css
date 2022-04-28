@@ -1,0 +1,25 @@
+.pheader {
+  display: flex;
+  justify-content: center;
+}
+.Pimg {
+  width: 200px;
+  height: 200px;
+  
+}
+.Pimg>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+.details>ul {
+  list-style: none;
+}
+.dimg {
+  width: 100%;
+  height:550px;
+}
+.dimg>img {
+  width: 100%;
+  height: 100%;
+}
